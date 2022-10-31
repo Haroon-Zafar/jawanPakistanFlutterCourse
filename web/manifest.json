@@ -1,11 +1,11 @@
 {
-    "name": "flutter_application_2",
-    "short_name": "flutter_application_2",
+    "name": "jawan_pakistan_flutter_course",
+    "short_name": "jawan_pakistan_flutter_course",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Jawan Pakistan Flutter Course implementations and code.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

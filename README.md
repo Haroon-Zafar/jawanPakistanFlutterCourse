@@ -1,6 +1,6 @@
-# flutter_application_2
+# jawan_pakistan_flutter_course
 
-A new Flutter project.
+Jawan Pakistan Flutter Course implementations and code.
 
 ## Getting Started
 
