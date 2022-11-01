@@ -12,7 +12,12 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
-        children: [],
+        children: [
+          Container(
+            color: Colors.yellow,
+            height: 100,
+          ),
+        ],
       ),
     );
   }
