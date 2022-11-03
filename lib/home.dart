@@ -18,11 +18,10 @@ class _HomeState extends State<Home> {
             height: 100,
             child: Row(
               children: [
-                Container(child: Container(
+                Container(
                   color: Colors.purple,
                   height: 95,
                   width: 95,
-                ),
                 ),
               ],
             ),
