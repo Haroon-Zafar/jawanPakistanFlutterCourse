@@ -14,8 +14,16 @@ class _HomeState extends State<Home> {
       body: ListView(
         children: [
           Container(
-            color: Colors.yellow,
+            color: Colors.pink,
             height: 100,
+            child: Row(
+              children: [
+                Container(child: Container(
+                  color: Colors.purple,
+                ),
+                ),
+              ],
+            ),
           ),
         ],
       ),
