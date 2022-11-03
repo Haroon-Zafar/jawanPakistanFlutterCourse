@@ -20,6 +20,8 @@ class _HomeState extends State<Home> {
               children: [
                 Container(child: Container(
                   color: Colors.purple,
+                  height: 95,
+                  width: 95,
                 ),
                 ),
               ],
