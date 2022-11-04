@@ -28,9 +28,15 @@ class _HomeState extends State<Home> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("ABC"),
-                      Text("ABC"),
-                      Text("ABC"),
+                      Text("ABC1"),
+                      Row(
+                        children: [
+                          Text("ABC2"),
+                          Text("ABC2"),
+                          Text("ABC2"),
+                        ],
+                      ),
+                      Text("ABC3"),
                     ],
                   ),
                 ),
