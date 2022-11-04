@@ -36,6 +36,8 @@ class _HomeState extends State<Home> {
                           Text("ABC2"),
                         ],
                       ),
+                      // Addding Icon.
+                      Icon(Icons.android),
                       Text("ABC3"),
                     ],
                   ),
