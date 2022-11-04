@@ -37,7 +37,7 @@ class _HomeState extends State<Home> {
                         ],
                       ),
                       // Addding Icon.
-                      Icon(Icons.add),
+                      Icon(Icons.notification),
                       Text("ABC3"),
                     ],
                   ),
