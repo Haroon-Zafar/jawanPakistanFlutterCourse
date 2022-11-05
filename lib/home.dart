@@ -53,7 +53,7 @@ class _HomeState extends State<Home> {
 
 // Returning a Widget with Dynamic Values.
 
-Widget customWidget() {
+Widget customWidget(var name) {
   return Container(
     color: Colors.pink,
     height: 100,
@@ -72,14 +72,12 @@ Widget customWidget() {
               Text("ABC1"),
               Row(
                 children: [
-                  Text("ABC2"),
-                  Text("ABC2"),
-                  Text("ABC2"),
+                  Text(name),
                 ],
               ),
               // Addding Icon.
               Icon(Icons.android),
-              Text("ABC3"),
+              Text(name),
             ],
           ),
         ),
