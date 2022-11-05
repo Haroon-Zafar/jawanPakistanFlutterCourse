@@ -14,6 +14,8 @@ class _HomeState extends State<Home> {
       body: ListView(
         children: [
           customWidget("Haroon"),
+          customWidget("Ahmed"),
+          customWidget("Zain"),
         ],
       ),
     );
