@@ -13,38 +13,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: ListView(
         children: [
-          Container(
-            color: Colors.pink,
-            height: 100,
-            child: Row(
-              children: [
-                Container(
-                  color: Colors.purple,
-                  height: 95,
-                  width: 95,
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 8.0),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text("ABC1"),
-                      Row(
-                        children: [
-                          Text("ABC2"),
-                          Text("ABC2"),
-                          Text("ABC2"),
-                        ],
-                      ),
-                      // Addding Icon.
-                      Icon(Icons.android),
-                      Text("ABC3"),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
+          customWidget("Haroon"),
         ],
       ),
     );
