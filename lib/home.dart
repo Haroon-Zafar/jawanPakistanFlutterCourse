@@ -11,12 +11,8 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView(
-        children: [
-          customWidget("Haroon"),
-          customWidget("Ahmed"),
-          customWidget("Zain"),
-        ],
+      body: ListView.builder(
+        itemBuilder: itemBuilder,
       ),
     );
   }
