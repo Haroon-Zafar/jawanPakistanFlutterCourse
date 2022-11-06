@@ -20,7 +20,10 @@ class _HomeState extends State<Home> {
         // Index is a loop which gets index of every item in each iteration.
         itemBuilder: (context, index) {
           return ListTile(
-            title: Text("List Tile Title"),
+            title: Text(
+              // inddex = 0   ;   lst[0] = Ahmed ; so text will be Ahmed in Title.
+              lst[index],
+            ),
           );
         },
       ),
