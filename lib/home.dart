@@ -8,10 +8,13 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  // Making a list type object which is passed to the ListView.builder
-  var lst = ["Ahmed", "Haroon", "Zain", "Areeb"];
-  // Making a list type object for Age.
-  var age = ["22", "23", "24", "25"];
+  // Making a list type object with links of images which is passed to the ListView.builder
+  var lst = [
+    "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg",
+    "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg",
+    "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg",
+    "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg"
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,13 +24,11 @@ class _HomeState extends State<Home> {
         // In context we are getting the context of the data.
         // Index is a loop which gets index of every item in each iteration.
         itemBuilder: (context, index) {
-          return ListTile(
-            title: Text(
-              // inddex = 0   ;   lst[0] = Ahmed ; so text will be Ahmed in Title.
+          return Container(
+            height: 200,
+            width: 200,
+            child: Image.network(
               lst[index],
-            ),
-            subtitle: Text(
-              age[index],
             ),
           );
         },
