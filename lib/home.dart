@@ -8,11 +8,15 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  // Making a list type object which is passed to the ListView.builder
+  var lst = ["Ahmed", "Haroon", "Zain", "Areeb"];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView.builder(
-        itemBuilder: itemBuilder,
+        // Requires a List of Items.
+        itemCount: lst.length,
+        itemBuilder: ,
       ),
     );
   }
