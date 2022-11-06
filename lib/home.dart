@@ -10,6 +10,8 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   // Making a list type object which is passed to the ListView.builder
   var lst = ["Ahmed", "Haroon", "Zain", "Areeb"];
+  // Making a list type object for Age.
+  var age = ["22", "23", "24", "25"];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
