@@ -26,6 +26,9 @@ class _HomeState extends State<Home> {
               // inddex = 0   ;   lst[0] = Ahmed ; so text will be Ahmed in Title.
               lst[index],
             ),
+            subtitle: Text(
+              age[index],
+            ),
           );
         },
       ),
