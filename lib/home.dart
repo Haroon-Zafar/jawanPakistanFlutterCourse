@@ -16,7 +16,13 @@ class _HomeState extends State<Home> {
       body: ListView.builder(
         // Requires a List of Items.
         itemCount: lst.length,
-        itemBuilder: ,
+        // In context we are getting the context of the data.
+        // Index is a loop which gets index of every item in each iteration.
+        itemBuilder: (context, index) {
+          return ListTile(
+            title: Text("List Tile Title"),
+          );
+        },
       ),
     );
   }
