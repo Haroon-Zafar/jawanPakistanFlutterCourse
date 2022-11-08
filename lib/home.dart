@@ -24,12 +24,9 @@ class _HomeState extends State<Home> {
         // In context we are getting the context of the data.
         // Index is a loop which gets index of every item in each iteration.
         itemBuilder: (context, index) {
-          return Container(
-            height: 200,
-            width: 200,
-            child: Image.network(
-              lst[index],
-            ),
+          return Scaffold(
+            // crossAxisCount means within a row how many widgets we are placing.
+            body: GridView.count(crossAxisCount: 2),
           );
         },
       ),
