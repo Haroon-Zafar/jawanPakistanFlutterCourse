@@ -10,10 +10,10 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   // Making a list type object with links of images which is passed to the ListView.builder
   var lst = [
-    "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg",
-    "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg",
-    "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg",
-    "https://thumbs.dreamstime.com/b/default-avatar-profile-icon-vector-social-media-user-image-182145777.jpg"
+    "Ali",
+    "Hassan",
+    "Hussein",
+    "Zain",
   ];
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,16 @@ class _HomeState extends State<Home> {
         itemBuilder: (context, index) {
           return Scaffold(
             // crossAxisCount means within a row how many widgets we are placing.
-            body: GridView.count(crossAxisCount: 2),
+            body: GridView.count(
+              crossAxisCount: 2,
+              children: List.generate(lst.length, (index) {
+                return Container(
+                  height: 200,
+                  width: 200,
+                  color: Colors.pink,
+                );
+              }),
+            ),
           );
         },
       ),
