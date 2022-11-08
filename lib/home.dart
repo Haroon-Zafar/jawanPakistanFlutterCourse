@@ -30,9 +30,10 @@ class _HomeState extends State<Home> {
               crossAxisCount: 2,
               children: List.generate(lst.length, (index) {
                 return Container(
-                  height: 200,
-                  width: 200,
                   color: Colors.pink,
+                  child: Text(
+                    lst[index],
+                  ),
                 );
               }),
             ),
