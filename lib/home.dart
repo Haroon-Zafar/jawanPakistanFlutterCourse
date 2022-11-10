@@ -22,7 +22,13 @@ class _HomeState extends State<Home> {
         title: Text("Drawer Example"),
       ),
       drawer: Drawer(
-        child: ,
+        child: ListView(
+          children: [
+            DrawerHeader(
+              child: Container(),
+            ),
+          ],
+        ),
       ),
     );
   }
