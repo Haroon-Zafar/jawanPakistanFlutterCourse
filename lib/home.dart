@@ -21,6 +21,9 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text("Drawer Example"),
       ),
+      drawer: Drawer(
+        child: ,
+      ),
     );
   }
 }
