@@ -18,27 +18,16 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView.builder(
-        // Requires a List of Items.
-        itemCount: lst.length,
-        // In context we are getting the context of the data.
-        // Index is a loop which gets index of every item in each iteration.
-        itemBuilder: (context, index) {
-          return Scaffold(
-            // crossAxisCount means within a row how many widgets we are placing.
-            body: GridView.count(
-              crossAxisCount: 2,
-              children: List.generate(lst.length, (index) {
-                return Container(
-                  color: Colors.pink,
-                  child: Text(
-                    lst[index],
-                  ),
-                );
-              }),
+      body: GridView.count(
+        crossAxisCount: 4,
+        children: List.generate(lst.length, (index) {
+          return Container(
+            color: Colors.pink,
+            child: Text(
+              lst[index],
             ),
           );
-        },
+        }),
       ),
     );
   }
