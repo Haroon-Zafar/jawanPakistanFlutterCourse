@@ -23,7 +23,10 @@ class _HomeState extends State<Home> {
         appBar: AppBar(
           title: TabBar(
             tabs: [
-              Tab(),
+              // Login Tab
+              Tab(
+                child: Text("Login"),
+              ),
             ],
           ),
         ),
