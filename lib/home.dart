@@ -21,7 +21,11 @@ class _HomeState extends State<Home> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: TabBar(tabs: ),
+          title: TabBar(
+            tabs: [
+              Tab(),
+            ],
+          ),
         ),
       ),
     );
