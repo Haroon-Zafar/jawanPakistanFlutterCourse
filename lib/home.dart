@@ -27,6 +27,10 @@ class _HomeState extends State<Home> {
               Tab(
                 child: Text("Login"),
               ),
+              // Register Tab
+              Tab(
+                child: Text("Register"),
+              ),
             ],
           ),
         ),
