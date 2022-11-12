@@ -23,7 +23,11 @@ class _HomeState extends State<Home> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.pink,
           title: TabBar(
+            unselectedLabelColor: Colors.purpleAccent,
+            labelColor: Colors.purpleAccent,
+            indicatorColor: Colors.amberAccent,
             tabs: [
               // Login Tab
               Tab(
