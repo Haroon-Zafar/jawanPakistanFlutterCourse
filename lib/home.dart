@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:jawan_pakistan_flutter_course/login.dart';
+import 'package:jawan_pakistan_flutter_course/register.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -35,7 +37,12 @@ class _HomeState extends State<Home> {
           ),
         ),
         body: TabBarView(
-          children: [],
+          children: [
+            // Calling Login() class from login.dart
+            Login(),
+            //  Calling Register() class from register.dart
+            Register(),
+          ],
         ),
       ),
     );
