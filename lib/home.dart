@@ -29,7 +29,7 @@ class _HomeState extends State<Home> {
           ),
           bottom: TabBar(
             unselectedLabelColor: Colors.purpleAccent,
-            labelColor: Colors.purpleAccent,
+            labelColor: Colors.black,
             indicatorColor: Colors.amberAccent,
             tabs: [
               // Login Tab
