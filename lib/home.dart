@@ -19,38 +19,15 @@ class _HomeState extends State<Home> {
   ];
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 2,
-      child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.pink,
-          title: Center(
-            child: Text("Title of TabBar"),
+    return Scaffold(
+      body: Column(
+        children: [
+          Text("Text: "),
+          ElevatedButton(
+            onPressed: () {},
+            child: Text("Make 1"),
           ),
-          bottom: TabBar(
-            unselectedLabelColor: Colors.purpleAccent,
-            labelColor: Colors.black,
-            indicatorColor: Colors.amberAccent,
-            tabs: [
-              // Login Tab
-              Tab(
-                child: Text("Login"),
-              ),
-              // Register Tab
-              Tab(
-                child: Text("Register"),
-              ),
-            ],
-          ),
-        ),
-        body: TabBarView(
-          children: [
-            // Calling Login() class from login.dart
-            Login(),
-            //  Calling Register() class from register.dart
-            Register(),
-          ],
-        ),
+        ],
       ),
     );
   }
