@@ -40,7 +40,7 @@ class _HomeState extends State<Home> {
     );
   }
 }
-
+// 1:18:15
 // Returning a Widget with Dynamic Values.
 
 Widget customWidget(var name) {
