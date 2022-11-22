@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:jawan_pakistan_flutter_course/login.dart';
 import 'package:jawan_pakistan_flutter_course/register.dart';
@@ -21,6 +22,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text("Text: "),
           ElevatedButton(
