@@ -15,7 +15,10 @@ class _HomeState extends State<Home> {
   var text = "";
   // Creating  a setState() function.
   one() {
-    setState(() {});
+    setState(() {
+      // setting the value of text = 1
+      text = "1";
+    });
   }
 
   @override
