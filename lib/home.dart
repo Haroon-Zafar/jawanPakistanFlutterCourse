@@ -37,17 +37,17 @@ class _HomeState extends State<Home> {
         children: [
           Text("Text: "),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: one,
             child: Text("Make 1"),
           ),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: two,
             child: Text("Make 2"),
           ),
-          ElevatedButton(
-            onPressed: () {},
-            child: Text("Make 3"),
-          ),
+          // ElevatedButton(
+          //   onPressed: () {},
+          //   child: Text("Make 3"),
+          // ),
         ],
       ),
     );
