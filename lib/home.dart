@@ -12,12 +12,12 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   // Making a list type object with links of images which is passed to the ListView.builder
-  var lst = [
-    "Ali",
-    "Hassan",
-    "Hussein",
-    "Zain",
-  ];
+  var text = "";
+  // Creating  a setState() function.
+  one() {
+    setState(() {});
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
