@@ -23,7 +23,10 @@ class _HomeState extends State<Home> {
 
   // Creating  a setState() function for button two.
   two() {
-    setState(() {});
+    setState(() {
+      // setting the value of text = 2
+      text = "2";
+    });
   }
 
   @override
