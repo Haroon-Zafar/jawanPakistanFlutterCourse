@@ -25,7 +25,7 @@ class _HomeState extends State<Home> {
   two() {
     setState(() {
       // setting the value of text = 2
-      text = "2";
+      text = "3";
     });
   }
 
