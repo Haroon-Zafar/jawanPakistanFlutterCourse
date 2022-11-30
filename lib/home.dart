@@ -25,8 +25,14 @@ class _HomeState extends State<Home> {
   two() {
     setState(() {
       // setting the value of text = 2
-      text = "3";
+      text = "2";
     });
+  three() {
+  setState(() {
+    // setting the value of text = 2
+    text = "3";
+  });
+
   }
 
   @override
@@ -44,6 +50,11 @@ class _HomeState extends State<Home> {
             onPressed: two,
             child: Text("Make 2"),
           ),
+          ElevatedButton(
+            onPressed: two,
+            child: Text("Make 3"),
+          ),
+
           // ElevatedButton(
           //   onPressed: () {},
           //   child: Text("Make 3"),
