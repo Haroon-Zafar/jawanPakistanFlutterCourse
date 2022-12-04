@@ -46,22 +46,6 @@ class _HomeState extends State<Home> {
             onPressed: one,
             child: Text("Make 1"),
           ),
-          ElevatedButton(
-            onPressed: two,
-            child: Text("Make 2"),
-          ),
-          ElevatedButton(
-            onPressed: two,
-            child: Text("Make 3"),
-          ),
-          ElevatedButton(
-            onPressed: two,
-            child: Text("Make 2"),
-          ),
-          ElevatedButton(
-            onPressed: two,
-            child: Text("Make 2"),
-          ),
 
 
           // ElevatedButton(
