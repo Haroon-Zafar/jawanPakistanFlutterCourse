@@ -37,24 +37,7 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text("Text: "),
-          ElevatedButton(
-            onPressed: one,
-            child: Text("Make 1"),
-          ),
-
-
-          // ElevatedButton(
-          //   onPressed: () {},
-          //   child: Text("Make 3"),
-          // ),
-        ],
-      ),
-    );
+    return Scaffold();
   }
 }
 // 1:18:15
