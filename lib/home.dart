@@ -37,7 +37,10 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(),
+    );
   }
 }
 // 1:18:15
